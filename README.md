@@ -55,15 +55,6 @@
  | POST | */users/:id/comment* | Create (Create) | creates a comment with the POST payload(form) data |
  | PUT | */users/yourSquad* | Update (Update) | update your squad name | 
 
-
- 
-
- | Syntax | Description V|
-| ------ | ----------- |
-| Header | Title |
-| Paragraph | Text |
-| **Bold** | *Italalic* |
-
  ### MVP
  ---
  1. Create sign up, login and logout pages
