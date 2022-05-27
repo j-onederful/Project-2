@@ -27,13 +27,13 @@
  N/A
 
 
- ![wireframe](./img/login-wireframe)
- ![wireframe](./img/signUp-wireframe)
- ![wireframe](./img/userTeam-wireframe)
- ![wireframe](./img/otherUserTeamList-wireframe)
- ![wireframe](./img/otherUserTeamPage-wireframe)
- ![wireframe](./img/playerSearch-wireframe)
- ![wireframe](./img/playerProfile-wireframe)
+ ![wireframe](./img/login-wireframe.jpg)
+ ![wireframe](./img/signUp-wireframe.jpg)
+ ![wireframe](./img/userTeam-wireframe.jpg)
+ ![wireframe](./img/otherUserTeamList-wireframe.jpg)
+ ![wireframe](./img/otherUserTeamPage-wireframe.jpg)
+ ![wireframe](./img/playerSearch-wireframe.jpg)
+ ![wireframe](./img/playerProfile-wireframe.jpg)
 
  ![erd](./img/ERD.png)
  
