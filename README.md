@@ -1,4 +1,4 @@
-# __Project 2__
+# __Squad Builder__
  
  ### Installation Instructions:
   N/A
@@ -27,7 +27,13 @@
  N/A
 
 
- ![wireframe](./img/Project1Wireframe.png)
+ ![wireframe](./img/login-wireframe)
+ ![wireframe](./img/signUp-wireframe)
+ ![wireframe](./img/userTeam-wireframe)
+ ![wireframe](./img/otherUserTeamList-wireframe)
+ ![wireframe](./img/otherUserTeamPage-wireframe)
+ ![wireframe](./img/playerSearch-wireframe)
+ ![wireframe](./img/playerProfile-wireframe)
 
  ![erd](./img/ERD.png)
  
