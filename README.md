@@ -39,38 +39,30 @@
  
  ### RESTful Routing Chart
  ---
- VERB
-URL pattern
-Action (CRUD)
-Description
-GET
-/players
-Index (Read)
-lists all players
-GET
-/comments/new
-New (Read)
-shows a form to make a new comment
-POST
-/comments
-Create (Create)
-creates an comment with the POST payload(form) data
-GET
-/players/:id
-Show (Read)
-list information about a specific player 
-GET
-/profile/edit/:id
-Edit (Read)
-shows a form for editting a specific users team 
-PUT
-/profile/:id
-Update (Update)
-updates the data for a specific user's team 
-DELETE
-/profile/:id
-Destroy (Delete)
-deletes the player with the specified id from users's team
+ | **VERB** | **URL Pattern** | **Action (CRUD)** | **Description** |
+ | -------- | --------------- | ----------------- | --------------- |
+ | GET | */users/login* | Show (Read) | renders login page |
+ | POST | */users/login* | Create (Create) | authenticates user credentials against database |
+ | GET | */users/new* | Show (Read) | renders sign up page |
+ | POST | */users/* | Create (Create) | creates new user and redirects to yourSquad page |
+ | GET | */users/logout* | Show (Read) | clears the cookie to log user out |
+ | GET | */users/yourSquad* | Show (Read) | renders yourSquad page |
+ | POST | */players* | Create(Create) | creates new player on your team (like favorite) |
+ | DELETE | */players/:id* | Destroy (Delete) | deletes the player with the specified id from your team (i.e. /players/1) | 
+ | GET | */players/details* | Show (Read) | shows a specific player profile page (has a form that POSTS to /players, creates new player in db) |
+ | GET | */users/:id* | Show (Read) | renders otherTeam page |
+ | GET | */users/:id/comment/new* | New (Read) | shows a form to make a new comment |
+ | POST | */users/:id/comment* | Create (Create) | creates a comment with the POST payload(form) data |
+ | PUT | */users/yourSquad* | Update (Update) | update your squad name | 
+
+
+ 
+
+ | Syntax | Description |
+| ------ | ----------- |
+| Header | Title |
+| Paragraph | Text |
+| **Bold** | *Italalic* |
 
  ### MVP
  ---
@@ -88,6 +80,7 @@ deletes the player with the specified id from users's team
  3. Add player career stats to player profile pages
  4. Some real nice CSS
  5. Usernames? (gonna just start with email's and then individual users can just name their teams)
+ 6. Select option drop down on Player Search bar
  
  ### Sources
  ---
