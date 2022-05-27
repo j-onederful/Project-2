@@ -35,7 +35,7 @@
  ![wireframe](./img/playerSearch-wireframe.jpg)
  ![wireframe](./img/playerProfile-wireframe.jpg)
 
- ![erd](./img/ERD.png)
+ ![erd](./img/ERD.jpg)
  
  ### RESTful Routing Chart
  ---
